@@ -8,11 +8,11 @@ html {
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 800px;
-    margin: 0 auto;
-    border: 3px solid #931420;
-    background-color: #fffded;
+	font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -22,13 +22,13 @@ header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
 	background-image: -moz-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -webkit-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -o-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
 	font-size: 175%;
@@ -45,7 +45,6 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-
 /* the styles for the section */
 section {
 	width: 525px;
@@ -75,7 +74,6 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
-
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -89,7 +87,11 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
@@ -108,7 +110,6 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
 /* the styles for the footer */
 footer {
 	background-color: #931420;
